@@ -401,3 +401,15 @@ border-radius: 50%;
     .op:hover {
         transform: scale(1.06);
     }
+
+/*Resturant*/
+
+.billeder2 div img{
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.billeder2 div{
+    text-align: center;
+}
+
