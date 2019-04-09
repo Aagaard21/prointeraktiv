@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    color: white;
+}
+p{
+font-family:helvetica, sans-serif;  
+}
+.background {
+    background-image: url(/images/nat_luftfoto.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+#ur{
+    color: white;
+    font-size: 2em;
+   
+}
+#dato{
+    color: white;
+    font-size: 2em;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        
+}
+
+.wrapper div{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.overskrift{
+    border: white solid 3px;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    padding: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.overskrift h1{
+    color: #CD0921;
+    font-family: helvetica;
+    font-size: 4em;
+}
+
+
+.overskrift h2{
+    color: white;
+    font-family: helvetica;
+    font-size: 2em;
+}
+#ikon_container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.ikoner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 700px;
+    background-color: rgba(0, 0, 0, 50%);   
+}
+
+.ikoner div {
+    height: 100%;
+    margin: 1em 0;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.scale{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.scale:active{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+    
+
+
+#test{
+    color: red;
+}
+/* ----------- explore side -------------- */
+.background2{
+    background-image: url(/images/kort.PNG);
+    height: 100vh;
+    background-size: cover;
+}
+@keyframes hop {
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.h2over{
+    font-family: helvetica;
+    color: white;
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 70%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 3%;
+    padding-top: 8%;
+    
+}
+.h2over h2{
+    margin: 25px 0;
+    padding-left: 46px;
+    
+}
+.h2over h3{
+    margin: 5px 0;
+    padding-left: 85px;
+    
+    
+}
+
+#vmuseum{
+    top: 270px;
+    left: 1344px;
+}
+
+#kunsthal{
+    top:310px;
+    left: 1235px;
+}
+
+#dokk{
+    top: 365px;
+    left: 1445px;
+}
+
+#gamleby{
+
+    top: 208px;
+    left: 1067px;
+
+}
+#aros{
+    top: 360px;
+    left: 1200px
+}
+
+#tivoli{
+    top: 887px;
+    left: 1165px;
+}
+#have{
+    top: 100px;
+    left: 1050px;
+}
+#koncert{
+    top: 390px;
+    left: 1180px;
+}
+#albert{
+    top: 270px;
+    left: 1310px;
+}
+#dgi{
+    top: 510px;
+    left: 1280px;
+}
+
+
+
+.animate{
+        animation: hop 1s ease-in-out;
+        animation-iteration-count: infinite;
+        width: 30px;
+        position: absolute;
+}
+
+#city {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 2%;
+    
+}
+
+#enter{
+  position: absolute;
+    top: 87%;
+    width: 2%;
+    left: 2%;
+}
+#art{
+   position: absolute;
+    width: 2%;
+    left: 2%;
+    top: 61%;
+
+}
+
+.tekst{
+    position: absolute;
+    top: 10%;
+    left: 5%
+}
+.overex{
+    position: absolute;
+    top: 3%;
+}
+    
+    
+/*---------- aros side */   
+    
+    #arosbag {
+    background-image: url(/images/aros.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+    
+#ah1 {
+   font-family: helvetica;
+    color: white;
+    position: absolute;
+    margin-left: 5%;
+}   
+
+#atekst {
+    margin-left: 5%;
+    margin-right: 5%;
+    position: absolute;
+    top: 12%;
+    color: white;
+    font-size: 1.2em;
+    font-family: arial light;
+}
+    
+#acon {
+    background: rgba(0, 0, 0, 0.4);
+    height:70%;
+    width:40%;
+    position:relative;
+    left:46%;
+    top:10%;
+}   
+    
+#qr {
+    width: 18%;
+    position: absolute;
+    top: 70%;
+    left:80%;
+}   
+
+.billet{
+    position: absolute;
+    top: 45%;
+    color: ghostwhite;
+    font-family: arial light;
+    margin-left: 5%;
+    
+}
+
+.opening{
+     position: absolute;
+    top: 65%;
+    color: ghostwhite;
+    font-family: arial light;
+    margin-left: 5%;
+}
+    
+  /*-----vejrside-----*/
+
+.background3 {
+background-image: url(/images/vejr2.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.vejrwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90%;
+}
+
+.vejrwrapper div{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 30%);
+    margin: 0 5px;
+    text-align: center;
+    
+    
+}
+.vejrwrapper div img{
+    width: 25%;
+ align-self: center;
+}
+.vejrwrapper div p{
+    
+}
+.weather{
+    font-family: helvetica;
+    color: white;
+    font-size: 2.9em;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.button {
+  background-color: gray; 
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+border-radius: 50%;
+
+}
+
+/*----rest side----*/
+.background4{
+    background-image: url(/images/restur.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.boks{
+    font-family: helvetica;
+    color: white;
+    position: absolute;
+    top: 80%;
+    height: 50%;
+    width: 100%;
+    background-color:whitesmoke;
+    
+}
+
+.boks h1{
+    color: #2d2d2d;
+    font-size: 45px;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+}
+
+
+
+    .billeder2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        
+        
+    }
+.op img{
+    width: 300px;
+  
+}
+
+
+
+    .op:hover {
+        transform: scale(1.06);
+    }
