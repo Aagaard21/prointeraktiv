@@ -9,7 +9,7 @@ function hentData(url, callback_Funktion) {
         }
     };
 }
-
+//Funktion som tager jsonData og en liste af id'er og liste numrer, som man skal bruge i json data. 
 function visData(jsonData) {  
     for (var i = 0; i < idliste.length; i++){
     
@@ -29,16 +29,8 @@ function visData(jsonData) {
     
     }
 }
-
+//Vejrliste er de nr i listen som vi skal bruge for at få det samme tidspunkt hverdag. 
 var vejrliste = [7, 15, 23, 31, 39];
 var idliste = ["dag1", "dag2", "dag3", "dag4", "dag5"];
 
 hentData("http://api.openweathermap.org/data/2.5/forecast?q=aarhus,dk&APPID=9fab19a023a8349aaf48f73bcfc0c51f&units=metric", visData);
-
-
-
-
-
-
-
-
